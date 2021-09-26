@@ -31,6 +31,10 @@ public class TestTypeScope {
 		System.out.println(b2);
 		
 		//5.Char
+		/**
+		 * char可以保存单个英文符号，ASCII码，中文
+		 * 0-127以内的数字会查ASCII表，不在范围？处理
+		 */
 		char c1 = 'a' ;
 		char c2 = '中' ;
 		char c3 = 97  ;
