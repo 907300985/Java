@@ -9,30 +9,34 @@ public class Iftest2 {
 		while (true) {
 			System.out.println("请输入你的成绩");
 			Double grade = new Scanner(System.in).nextDouble();
-			level(grade);
+			
+			String output = level(grade,null);
+			System.out.println("得分:"+grade+ " 属于:"+output);
 		}
 	}
 	
 	//注意顺序
-	public static void level(Double grade) {
+	public static String level(Double grade, String op) {
+		
 		if (grade > 100 || grade < 0) {
-			System.out.println("分数错误");
+			op = "分数错误";
 		}
 		else if (grade >= 90) {
-			System.out.println("优秀");
+			op = "优秀";
 		}
 		else if (grade >= 80) {
-			System.out.println("良好");
+			op = "良好";
 		}
 		else if (grade >= 70) {
-			System.out.println("中等");
+			op = "中等";
 		}
 		else if (grade >= 60) {
-			System.out.println("及格");
+			op = "及格";
 		}
 		else {
-			System.out.println("不及格");
+			op = "不及格";
 		}
+		return op;
 	}
 
 }
