@@ -1,4 +1,4 @@
-package cn.tedu.basic;
+package cn.tedu.method;
 
 public class TestMethod {
 	public static void main(String[] args) {
