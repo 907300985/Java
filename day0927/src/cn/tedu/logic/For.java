@@ -7,6 +7,9 @@ public class For {
 		method3(10);
 		method4();
 		method5();
+		method6();
+		method7();
+		method8();
 	}
 
 	//100次名字	
@@ -42,5 +45,33 @@ public class For {
 			}
 		}
 		System.out.println("\n"+sum);	
+	}
+	//求1-100总和
+	private static void method6() {
+		int sum = 0;
+		for (int i = 0; i <= 100; i++) {
+				sum += i;
+		}
+		System.out.println(sum);	
+	}
+	//求1-100奇数的和
+	private static void method7() {
+		int sum = 0;
+		for (int i = 0; i <= 100; i++) {
+			if (i%2 != 0) {
+				sum += i;
+			}
+		}
+		System.out.println(sum);	
+	}
+	//求1-100偶数的个数
+	private static void method8() {
+		int acc = 0;
+		for (int i = 0; i <= 100; i++) {
+			if (i%2 == 0) {
+				acc += 1;
+			}
+		}
+		System.out.println("一共有"+ acc + "个偶数");
 	}
 }
