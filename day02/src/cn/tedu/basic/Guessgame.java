@@ -24,6 +24,7 @@ public class Guessgame {
 				
 					if (acc == 0) {
 						System.out.println("\n你没机会了!");
+						break;
 					}
 			} catch (Exception e) {
 				System.out.println("你的输入格式错啦! 错误为:\n"+e+"\n请重新回答: ");
