@@ -1,4 +1,4 @@
-package day0927_1;
+package cn.tedu.review.forwhile;
 
 import java.util.Scanner;
 import java.util.Random;

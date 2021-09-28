@@ -1,4 +1,4 @@
-package day0927_1;
+package cn.tedu.review.forwhile;
 
 public class ReviewVariable {
 	static int count;

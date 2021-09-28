@@ -1,4 +1,4 @@
-package day0927_1;
+package cn.tedu.review.forwhile;
 //±¾Àà£¬Ç¶Ì×forÑ­»·
 public class ReviewFor {
 	public static void main(String[] args) {

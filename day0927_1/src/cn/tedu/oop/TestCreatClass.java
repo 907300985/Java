@@ -1,3 +1,4 @@
+/**对象：状态，行为，标识*/
 package cn.tedu.oop;
 /**本类用作面向对象入门案例*/
 //需求：设计手机这一类事物
@@ -19,7 +20,7 @@ public class TestCreatClass {
 		System.out.println(p.price);
 		
 		//创建第二个对象
-		Phone p2 = new Phone();
+		Phone p2 = new Phone(); 
 		p2.brand = "HUAWEI";
 		p2.size = 5.6;
 		p2.color = "五彩斑斓的黑";
