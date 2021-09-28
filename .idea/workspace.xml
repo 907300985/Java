@@ -19,9 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a87fb175-a405-4dbe-b44c-718b15989aa2" name="Default Changelist" comment="null">
-      <change beforePath="$PROJECT_DIR$/.idea/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="290a0d9f-ecef-462f-b56c-b1593a77cdc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day0925_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day01/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0925.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0925_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0926.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0926_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0927.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day0927_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +45,8 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectId" id="1yl6J6SaErn3e6G6Cux5VlVO75M" />
+  <component name="ProjectId" id="1ylFpkoXliUELPgoNEL4lvcaArC" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -43,85 +56,103 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Java" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+  <component name="RunManager" selected="Application.TestCreatClass">
+    <configuration name="Guessgame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.basic.Guessgame" />
+      <module name="day0926" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Java" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+    <configuration name="HelloWorld (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.hello.HelloWorld" />
+      <module name="day0925_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Iftest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.logic.Iftest1" />
+      <module name="day04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Iftest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.logic.Iftest2" />
+      <module name="day04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCreatClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.oop.TestCreatClass" />
+      <module name="day0927_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestCreatClass" />
+        <item itemvalue="Application.Guessgame" />
+        <item itemvalue="Application.HelloWorld (1)" />
+        <item itemvalue="Application.Iftest2" />
+        <item itemvalue="Application.Iftest1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a87fb175-a405-4dbe-b44c-718b15989aa2" name="Default Changelist" comment="" />
-      <created>1632813752710</created>
+      <changelist id="290a0d9f-ecef-462f-b56c-b1593a77cdc2" name="Default Changelist" comment="" />
+      <created>1632818452241</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1632813752710</updated>
-      <workItem from="1632813755809" duration="91000" />
-      <workItem from="1632814077228" duration="1200000" />
-      <workItem from="1632815292104" duration="221000" />
-      <workItem from="1632815544243" duration="191000" />
-      <workItem from="1632816177214" duration="25000" />
-      <workItem from="1632816216483" duration="4000" />
-      <workItem from="1632816786463" duration="272000" />
-      <workItem from="1632817074636" duration="590000" />
+      <updated>1632818452241</updated>
+      <workItem from="1632818465802" duration="424000" />
     </task>
     <servers />
   </component>
@@ -138,49 +169,22 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="null" />
-    <option name="LAST_COMMIT_MESSAGE" value="null" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="647" y="317" key="#Notifications" timestamp="1632814146670">
+    <state x="396" y="140" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632818675073">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state x="647" y="317" key="#Notifications/0.0.1536.912@0.0.1536.912" timestamp="1632814146670" />
-    <state x="249" y="30" key="#Project_Structure" timestamp="1632817637897">
+    <state x="396" y="140" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.912@0.0.1536.912" timestamp="1632818675073" />
+    <state x="445" y="118" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1632818518936">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state x="249" y="30" key="#Project_Structure/0.0.1536.912@0.0.1536.912" timestamp="1632817637897" />
-    <state x="223" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632817651284">
+    <state x="445" y="118" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.912@0.0.1536.912" timestamp="1632818518936" />
+    <state x="313" y="26" key="SettingsEditor" timestamp="1632818567041">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state x="223" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.912@0.0.1536.912" timestamp="1632817651284" />
-    <state x="556" y="177" width="438" height="610" key="FileChooserDialogImpl" timestamp="1632817547671">
-      <screen x="0" y="0" width="1536" height="912" />
-    </state>
-    <state x="556" y="177" width="438" height="610" key="FileChooserDialogImpl/0.0.1536.912@0.0.1536.912" timestamp="1632817547671" />
-    <state x="454" y="182" key="NewModule_or_Project.wizard" timestamp="1632817292836">
-      <screen x="0" y="0" width="1536" height="912" />
-    </state>
-    <state x="454" y="182" key="NewModule_or_Project.wizard/0.0.1536.912@0.0.1536.912" timestamp="1632817292836" />
-    <state x="311" y="54" key="SettingsEditor" timestamp="1632817428642">
-      <screen x="0" y="0" width="1536" height="912" />
-    </state>
-    <state x="311" y="54" key="SettingsEditor/0.0.1536.912@0.0.1536.912" timestamp="1632817428642" />
-    <state x="555" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1632814826399">
-      <screen x="0" y="0" width="1536" height="912" />
-    </state>
-    <state x="555" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.912@0.0.1536.912" timestamp="1632814826399" />
-    <state x="240" y="78" key="new project wizard" timestamp="1632815612447">
-      <screen x="0" y="0" width="1536" height="912" />
-    </state>
-    <state x="240" y="78" key="new project wizard/0.0.1536.912@0.0.1536.912" timestamp="1632815612447" />
-    <state x="491" y="367" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1632817666509">
-      <screen x="0" y="0" width="1536" height="912" />
-    </state>
-    <state x="491" y="367" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.912@0.0.1536.912" timestamp="1632817666509" />
+    <state x="313" y="26" key="SettingsEditor/0.0.1536.912@0.0.1536.912" timestamp="1632818567041" />
   </component>
 </project>
