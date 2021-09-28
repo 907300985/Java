@@ -20,22 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290a0d9f-ecef-462f-b56c-b1593a77cdc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day0925_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0925.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0925_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0926.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0926_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0927.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day0927_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +49,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RunManager" selected="Application.TestCreatClass">
     <configuration name="Guessgame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -152,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632818452241</updated>
-      <workItem from="1632818465802" duration="424000" />
+      <workItem from="1632818465802" duration="979000" />
     </task>
     <servers />
   </component>
@@ -182,9 +167,25 @@
       <screen x="0" y="0" width="1536" height="912" />
     </state>
     <state x="445" y="118" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.912@0.0.1536.912" timestamp="1632818518936" />
-    <state x="313" y="26" key="SettingsEditor" timestamp="1632818567041">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1632819031273">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state x="313" y="26" key="SettingsEditor/0.0.1536.912@0.0.1536.912" timestamp="1632818567041" />
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.912@0.0.1536.912" timestamp="1632819031273" />
+    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1632819031273">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.912@0.0.1536.912" timestamp="1632819031273" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1632819031273">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.912@0.0.1536.912" timestamp="1632819031273" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1632819031273">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.912@0.0.1536.912" timestamp="1632819031273" />
+    <state x="418" y="114" key="SettingsEditor" timestamp="1632819444860">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state x="418" y="114" key="SettingsEditor/0.0.1536.912@0.0.1536.912" timestamp="1632819444860" />
   </component>
 </project>
