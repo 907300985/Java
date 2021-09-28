@@ -2,12 +2,12 @@ package cn.tedu.array;
 
 import java.util.Arrays;
 
-/**Êý×éµÄ±éÀú2*/
-//ÐèÇó£º±éÀúÊý×é£¬ÒÀ´Î´æÈë1-10
+/**ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½2*/
+//ï¿½ï¿½ï¿½ó£º±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬ï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½1-10
 public class ArrayExec2 {
 	public static void main(String[] args) {
-		//¶¯Ì¬´´½¨Êý×é
-		int[]a = new int[10];//³¤¶ÈÎª10
+		//ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		int[]a = new int[10];//ï¿½ï¿½ï¿½ï¿½Îª10
 		for(int i = 0; i < a.length; i++) {
 			a[i] = i + 1;
 		}

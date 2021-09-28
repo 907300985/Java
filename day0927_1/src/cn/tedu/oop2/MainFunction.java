@@ -18,7 +18,7 @@ public class MainFunction {
 		
 		System.out.println("你要给苹果发送什么消息？");
 		String s = new Scanner(System.in).next();
-		//p1.call(s);
+		p1.call(s);
 		//p1.message("发短信给我吧");
 		//p1.video("播放视频给我吧");	
 		

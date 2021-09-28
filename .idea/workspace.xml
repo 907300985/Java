@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a87fb175-a405-4dbe-b44c-718b15989aa2" name="Default Changelist" comment="" />
+    <list default="true" id="a87fb175-a405-4dbe-b44c-718b15989aa2" name="Default Changelist" comment="null">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day0927_1/src/cn/tedu/array/ArrayExec2.java" beforeDir="false" afterPath="$PROJECT_DIR$/day0927_1/src/cn/tedu/array/ArrayExec2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,19 +30,28 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1yl6J6SaErn3e6G6Cux5VlVO75M" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day01" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -52,7 +64,11 @@
       <option name="presentableId" value="Default" />
       <updated>1632813752710</updated>
       <workItem from="1632813755809" duration="91000" />
-      <workItem from="1632814077228" duration="597000" />
+      <workItem from="1632814077228" duration="1200000" />
+      <workItem from="1632815292104" duration="221000" />
+      <workItem from="1632815544243" duration="191000" />
+      <workItem from="1632816177214" duration="25000" />
+      <workItem from="1632816216483" duration="4000" />
     </task>
     <servers />
   </component>
@@ -71,18 +87,39 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="null" />
+    <option name="LAST_COMMIT_MESSAGE" value="null" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="647" y="317" key="#Notifications" timestamp="1632814146670">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
     <state x="647" y="317" key="#Notifications/0.0.1536.912@0.0.1536.912" timestamp="1632814146670" />
-    <state x="223" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632813823268">
+    <state x="223" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632814703121">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state x="223" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.912@0.0.1536.912" timestamp="1632813823268" />
-    <state x="254" y="104" key="SettingsEditor" timestamp="1632814675686">
+    <state x="223" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.912@0.0.1536.912" timestamp="1632814703121" />
+    <state x="549" y="211" key="FileChooserDialogImpl" timestamp="1632814729493">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state x="254" y="104" key="SettingsEditor/0.0.1536.912@0.0.1536.912" timestamp="1632814675686" />
+    <state x="549" y="211" key="FileChooserDialogImpl/0.0.1536.912@0.0.1536.912" timestamp="1632814729493" />
+    <state x="311" y="54" key="SettingsEditor" timestamp="1632815733548">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state x="311" y="54" key="SettingsEditor/0.0.1536.912@0.0.1536.912" timestamp="1632815733548" />
+    <state x="555" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1632814826399">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state x="555" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.912@0.0.1536.912" timestamp="1632814826399" />
+    <state x="240" y="78" key="new project wizard" timestamp="1632815612447">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state x="240" y="78" key="new project wizard/0.0.1536.912@0.0.1536.912" timestamp="1632815612447" />
+    <state x="491" y="367" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1632815512019">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state x="491" y="367" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.912@0.0.1536.912" timestamp="1632815512019" />
   </component>
 </project>
