@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a146988-c1ce-456d-a717-71288b2157d3" name="Default Changelist" comment="" />
+    <list default="true" id="0a146988-c1ce-456d-a717-71288b2157d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day0928/cn/tedu/idea/HelloIdea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day0928/cn/tedu/idea/HelloIdea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/tedu/idea/HelloIdea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/tedu/idea/HelloIdea.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +56,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunManager" selected="Application.HelloIdea">
     <configuration name="HelloIdea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -99,7 +103,7 @@
       <updated>1632820224607</updated>
       <workItem from="1632820228346" duration="520000" />
       <workItem from="1632821261782" duration="89000" />
-      <workItem from="1632821518030" duration="311000" />
+      <workItem from="1632821518030" duration="902000" />
     </task>
     <servers />
   </component>
@@ -131,30 +135,30 @@
       <screen x="0" y="0" width="1536" height="912" />
     </state>
     <state x="616" y="226" key="FileChooserDialogImpl/0.0.1536.912@0.0.1536.912" timestamp="1632821350547" />
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1632821350551">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1632822422355">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.912@0.0.1536.912" timestamp="1632821350551" />
-    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1632821350551">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.912@0.0.1536.912" timestamp="1632822422355" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1632822422355">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.912@0.0.1536.912" timestamp="1632821350551" />
-    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1632821350551">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.912@0.0.1536.912" timestamp="1632822422355" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1632822422355">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.912@0.0.1536.912" timestamp="1632821350551" />
-    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1632821350551">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.912@0.0.1536.912" timestamp="1632822422355" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1632822422355">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.912@0.0.1536.912" timestamp="1632821350551" />
-    <state x="262" y="100" key="SettingsEditor" timestamp="1632821529649">
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.912@0.0.1536.912" timestamp="1632822422355" />
+    <state x="262" y="100" key="SettingsEditor" timestamp="1632822394114">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state x="262" y="100" key="SettingsEditor/0.0.1536.912@0.0.1536.912" timestamp="1632821529649" />
-    <state x="178" y="55" key="new project wizard" timestamp="1632820748137">
+    <state x="262" y="100" key="SettingsEditor/0.0.1536.912@0.0.1536.912" timestamp="1632822394114" />
+    <state x="178" y="55" key="new project wizard" timestamp="1632822422308">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state x="178" y="55" key="new project wizard/0.0.1536.912@0.0.1536.912" timestamp="1632820748137" />
+    <state x="178" y="55" key="new project wizard/0.0.1536.912@0.0.1536.912" timestamp="1632822422308" />
     <state x="526" y="329" width="618" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1632820442280">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
