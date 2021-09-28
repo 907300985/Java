@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="707d0124-dc62-48a4-9ead-710e06fecca6" name="Default Changelist" comment="idea">
-      <change beforePath="$PROJECT_DIR$/../day0928/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day0928/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day0928/out/production/day0928/cn/tedu/idea/HelloIdea.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day0928/out/production/day0928/cn/tedu/idea/HelloIdea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day0928/src/cn/tedu/idea/HelloIdea.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day0928/src/cn/tedu/idea/HelloIdea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="707d0124-dc62-48a4-9ead-710e06fecca6" name="Default Changelist" comment="idea" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,6 +115,7 @@
       <workItem from="1632820749367" duration="511000" />
       <workItem from="1632821351851" duration="165000" />
       <workItem from="1632822489484" duration="629000" />
+      <workItem from="1632823180210" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1632821129556</created>
