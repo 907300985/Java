@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4479dc59-e748-4f5c-b777-786670422864" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../futureplan/src/tedu/plan/Future.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../futureplan/src/tedu/plan/Now.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tedu/letter/Future.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tedu/letter/Now.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day0927_1/src/cn/tedu/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day0927_1/src/cn/tedu/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day0928_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day0928_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../futureplan/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../futureplan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../futureplan/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,6 +60,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunManager" selected="Application.Now">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -108,6 +107,10 @@
       <option name="presentableId" value="Default" />
       <updated>1632904674473</updated>
       <workItem from="1632904680810" duration="5585000" />
+      <workItem from="1632961577229" duration="43000" />
+      <workItem from="1632963359004" duration="1125000" />
+      <workItem from="1632968531504" duration="76000" />
+      <workItem from="1632968672808" duration="6000" />
     </task>
     <servers />
   </component>
@@ -124,28 +127,33 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="30" key="#Project_Structure" timestamp="1632904685099">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
     <state x="249" y="30" key="#Project_Structure/0.0.1536.912@0.0.1536.912" timestamp="1632904685099" />
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1632910294249">
+    <state x="549" y="211" key="FileChooserDialogImpl" timestamp="1632968605023">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.912@0.0.1536.912" timestamp="1632910294249" />
-    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1632910294249">
+    <state x="549" y="211" key="FileChooserDialogImpl/0.0.1536.912@0.0.1536.912" timestamp="1632968605023" />
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1632968607429">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.912@0.0.1536.912" timestamp="1632910294249" />
-    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1632910294249">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.912@0.0.1536.912" timestamp="1632968607429" />
+    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1632968607429">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.912@0.0.1536.912" timestamp="1632910294249" />
-    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1632910294249">
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.912@0.0.1536.912" timestamp="1632968607429" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1632968607429">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.912@0.0.1536.912" timestamp="1632910294249" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.912@0.0.1536.912" timestamp="1632968607429" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1632968607429">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.912@0.0.1536.912" timestamp="1632968607429" />
     <state width="1493" height="296" key="GridCell.Tab.1.bottom" timestamp="1632910294249">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
@@ -162,5 +170,9 @@
       <screen x="0" y="0" width="1536" height="912" />
     </state>
     <state width="1493" height="296" key="GridCell.Tab.1.right/0.0.1536.912@0.0.1536.912" timestamp="1632910294249" />
+    <state x="262" y="100" key="SettingsEditor" timestamp="1632968678188">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state x="262" y="100" key="SettingsEditor/0.0.1536.912@0.0.1536.912" timestamp="1632968678188" />
   </component>
 </project>

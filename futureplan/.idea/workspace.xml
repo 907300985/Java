@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="033c6bec-e5c1-4dcb-8892-bfa3052fe7ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tedu/plan/Future.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tedu/plan/Now.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day0927_1/src/cn/tedu/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day0927_1/src/cn/tedu/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day0928_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day0928_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../letter_nandi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../letter_nandi/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../letter_nandi" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,53 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="futureplan" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="futureplan" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -142,6 +93,7 @@
       <workItem from="1632904312986" duration="195000" />
       <workItem from="1632904516728" duration="80000" />
       <workItem from="1632904605372" duration="73000" />
+      <workItem from="1632968627698" duration="44000" />
     </task>
     <servers />
   </component>
@@ -165,26 +117,26 @@
       <screen x="0" y="0" width="1536" height="912" />
     </state>
     <state x="429" y="66" key="#Now/0.0.1536.912@0.0.1536.912" timestamp="1632904595180" />
-    <state x="549" y="151" key="FileChooserDialogImpl" timestamp="1632904581884">
+    <state x="549" y="151" key="FileChooserDialogImpl" timestamp="1632968670182">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state x="549" y="151" key="FileChooserDialogImpl/0.0.1536.912@0.0.1536.912" timestamp="1632904581884" />
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1632904679477">
+    <state x="549" y="151" key="FileChooserDialogImpl/0.0.1536.912@0.0.1536.912" timestamp="1632968670182" />
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1632968671388">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.912@0.0.1536.912" timestamp="1632904679477" />
-    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1632904679477">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.912@0.0.1536.912" timestamp="1632968671388" />
+    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1632968671388">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.912@0.0.1536.912" timestamp="1632904679477" />
-    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1632904679477">
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.912@0.0.1536.912" timestamp="1632968671388" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1632968671388">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.912@0.0.1536.912" timestamp="1632904679477" />
-    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1632904679477">
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.912@0.0.1536.912" timestamp="1632968671388" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1632968671388">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
-    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.912@0.0.1536.912" timestamp="1632904679477" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.912@0.0.1536.912" timestamp="1632968671388" />
     <state x="262" y="61" key="SettingsEditor" timestamp="1632904553123">
       <screen x="0" y="0" width="1536" height="912" />
     </state>
