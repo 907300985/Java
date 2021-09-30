@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4479dc59-e748-4f5c-b777-786670422864" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../futureplan/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../futureplan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../futureplan/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4479dc59-e748-4f5c-b777-786670422864" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +107,7 @@
       <workItem from="1632963359004" duration="1125000" />
       <workItem from="1632968531504" duration="76000" />
       <workItem from="1632968672808" duration="6000" />
+      <workItem from="1632986781827" duration="26000" />
     </task>
     <servers />
   </component>
@@ -174,5 +171,9 @@
       <screen x="0" y="0" width="1536" height="912" />
     </state>
     <state x="262" y="100" key="SettingsEditor/0.0.1536.912@0.0.1536.912" timestamp="1632968678188" />
+    <state x="178" y="55" key="new project wizard" timestamp="1632986807421">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state x="178" y="55" key="new project wizard/0.0.1536.912@0.0.1536.912" timestamp="1632986807421" />
   </component>
 </project>
