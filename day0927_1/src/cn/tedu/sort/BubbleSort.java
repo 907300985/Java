@@ -12,7 +12,7 @@ public class BubbleSort {
 	}
 
 	private static void method(int a[]) {			/**自研冒泡排序方法*/
-		for(int i = 0 ; i < a.length-1 ; i++) { 	//遍历数组长度-1次，因为最后可以出两个结果，五遍从上到下，五轮		
+		for(int i = 0 ; i < a.length-1 ; i++) { 	//遍历数组长度-1次，因为最后可以出两个结果，五遍从上到下，五轮
 			for (int j = 0; j < a.length-1 ; j++) {	//遍历5次排序，从左到右相比，每一轮比较的次数
 				System.out.println("比较"+(j+1)+"次");
 				if (a[j]>a[j+1]) {					//如果左边比右边大
