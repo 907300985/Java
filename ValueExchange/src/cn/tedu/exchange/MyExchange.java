@@ -1,5 +1,6 @@
 package cn.tedu.exchange;
 
+import javax.jws.soap.SOAPBinding;
 import java.util.Scanner;
 
 /**
