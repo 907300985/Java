@@ -10,8 +10,10 @@ public class while10 {
 //        while (a < 10){
 //            System.out.println(++a);
 //        }
-        for (int i = 1; i <= 10 ; i++) {
-            System.out.println(i);
-        }
+//        for (int i = 1; i <= 10 ; i++) {
+//            System.out.println(i);
+//        }
+        String s = "123";
+        System.out.println(s);
     }
 }
