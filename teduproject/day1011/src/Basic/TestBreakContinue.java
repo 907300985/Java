@@ -24,6 +24,7 @@ public class TestBreakContinue {
                 continue;
             }
             System.out.println("我在测试代码效率");
+            System.out.println("asdasd");
         }
     }
 }
