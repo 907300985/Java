@@ -24,7 +24,7 @@ public class TestDog {
         d.eat(3);
         d.run();
         d.sleep(8);
-        System.out.println(d.play("二郎神"));
+        System.out.println(d.play(d.getHost()));
 //=======================================================================
         d2.setAge(5);
         d2.setHost("大自然");
@@ -41,7 +41,7 @@ public class TestDog {
         d2.eat(3);
         d2.run();
         d2.sleep(8);
-        System.out.println(d2.play("大自然"));
+        System.out.println(d2.play(d2.getHost()));
 
     }
 }
@@ -102,7 +102,7 @@ class Dog{
         System.out.println("小狗睡了"+num+"小时");
     }
     public String play(String host){
-        this.host = host;
+        //this.host = host;
         System.out.println("小狗在和"+host+"玩耍");
         bark();
         return "飞盘\n";
