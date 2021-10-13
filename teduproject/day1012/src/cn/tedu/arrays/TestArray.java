@@ -19,6 +19,5 @@ public class TestArray {
         System.out.println(Arrays.toString(a));
         System.out.println(Arrays.toString(a2));
         System.out.println(Arrays.toString(a3));
-
     }
 }
