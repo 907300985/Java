@@ -1,6 +1,4 @@
-package cn.tedu.oop;
-
-import javax.jws.soap.SOAPBinding;
+package cn.tedu.oop.oop;
 
 /**
  * @Date:2021/10/12 11:44

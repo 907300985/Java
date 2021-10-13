@@ -1,4 +1,4 @@
-package cn.tedu.arrays;
+package cn.tedu.oop.arrays;
 
 import java.util.Arrays;
 
