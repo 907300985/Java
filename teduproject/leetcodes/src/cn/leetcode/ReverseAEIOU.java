@@ -8,7 +8,7 @@ public class ReverseAEIOU {
     public static void main(String[] args) {
         Solution s = new Solution();
         System.out.println(s.reverseVowels("leetcode"));
-        System.out.println(s.isYY('a'));
+
     }
 }
 class Solution {
