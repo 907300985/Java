@@ -9,5 +9,11 @@ public class TestExtends {
 
     }
 }
-class 
+class A{
+
+}
+
+class B extends A{
+
+}
 
