@@ -53,5 +53,7 @@ public class TestString2 {
 
         byte[] bytes = s3.getBytes();//字符串转bytes
         System.out.println(Arrays.toString(bytes));
+
+        
     }
 }
