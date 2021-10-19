@@ -26,6 +26,8 @@ public class Test extends JFrame{
         b.setBounds(50,300,100,30);
         b1.setBounds(200,300,100,30);
 
+
+
         c.add(l);
         c.add(b);
         c.validate();

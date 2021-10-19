@@ -14,4 +14,28 @@ interface Inter3{
     void update();
     void find();
 }
-interface Inter4{}
+interface Inter4 extends Inter1,Inter2{
+    void eat();
+}
+class Inter4Impl implements Inter4{
+
+    @Override
+    public void eat() {
+
+    }
+
+    @Override
+    public void play() {
+
+    }
+
+    @Override
+    public void add() {
+
+    }
+
+    @Override
+    public void delete() {
+
+    }
+}
