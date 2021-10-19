@@ -6,3 +6,12 @@ package cn.tedu.review;
  */
 public class TestInter2 {
 }
+interface Inter2{
+    void add();
+    void delete();
+}
+interface Inter3{
+    void update();
+    void find();
+}
+interface Inter4{}
