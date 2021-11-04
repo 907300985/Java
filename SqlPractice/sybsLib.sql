@@ -1,310 +1,351 @@
-SELECT * FROM emp ORDER BY sal DESC, ename ASC 
+select * from emp order by sal desc, ename asc 
 
-SELECT job,COUNT(1) FROM emp
-GROUP BY job 
+select job,COUNT(1) from emp
+group by job 
 
 
 
-SELECT ename, sal, YEAR(hiredate) years FROM emp WHERE sal>5000 
-GROUP BY years
+select ename, sal, YEAR(hiredate) years from emp where sal>5000 
+group by years
 
-SELECT ename, MAX(sal) m,YEAR(hiredate) years FROM emp
-GROUP BY years
-HAVING m > 5000
+select ename, MAX(sal) m,YEAR(hiredate) years from emp
+group by years
+having m > 5000
 
-SELECT MAX(sal) FROM emp
+select MAX(sal) from emp
 
-SELECT sal FROM emp ORDER BY sal DESC LIMIT 1
-SHOW DATABASES
-SHOW TABLES
-USER
+select sal from emp order by sal desc limit 1
+show databases
+show tables
+user
 
-INSERT INTO USER VALUES(
-NULL,"Nandi","0000")
+insert into user values(
+null,"Nandi","0000")
 
-UPDATE USER SET pwd = "123" WHERE id = 1 
+update user set pwd = "123" where id = 1 
 
-INSERT INTO  USER VALUES(
-NULL,"Ross","456");
-UPDATE USER SET NAME = "Jack" WHERE id = 1
+insert into  user values(
+null,"Ross","456");
+update user set name = "Jack" where id = 1
 
-INSERT INTO USER VALUES
-	(NULL,"Tony","123"),(NULL,"Jerry","456")
+insert into user values
+	(null,"Tony","123"),(null,"Jerry","456")
 
-CREATE TABLE a(
-	id INT PRIMARY KEY AUTO_INCREMENT,
-	sex VARCHAR(10) DEFAULT "中性"
+create table a(
+	id int primary key auto_increment,
+	sex varchar(10) default "中性"
 	);
-SELECT * FROM a;
+select * from a;
 
-CREATE TABLE bb(
-	id INT PRIMARY KEY AUTO_INCREMENT,
-	age INT,
-	CHECK(age<200 AND age >0)
+create table bb(
+	id int primary key auto_increment,
+	age int,
+	check(age<200 and age >0)
 	);
-INSERT INTO bb VALUES(
-	NULL,1000);
+insert into bb values(
+	null,1000);
 
-CREATE TABLE tb_user(
-id INT PRIMARY KEY AUTO_INCREMENT,
-NAME VARCHAR(20),
-age INT,
-sex CHAR(10) DEFAULT "男"
+create table tb_user(
+id int primary key auto_increment,
+name varchar(20),
+age int,
+sex CHAR(10) default "男"
 )
 
-CREATE TABLE tb_user_address(tb_user
-user_id INT PRIMARY KEY,
-address VARCHAR(200),
+create table tb_user_address(tb_user
+user_id int primary key,
+address varchar(200),
 #创建外键
-FOREIGN KEY(user_id) REFERENCES tb_user(id)
+foreign key(user_id) references tb_user(id)
 )
 #子表的主键值也不能乱写，必须取自主表的主键值
 
 
-CREATE TABLE courses
+create table courses
  
 (
  
-cno VARCHAR(5) NOT NULL,
+cno varchar(5) not null,
  
-cname VARCHAR(10) NOT NULL,
+cname varchar(10) not null,
  
-tno VARCHAR(3) NOT NULL,
+tno varchar(3) not null,
  
-PRIMARY KEY (cno)
+primary key (cno)
  
 );
 
 
-CREATE TABLE scores
+create table scores
  
 (
  
-sno VARCHAR(3) NOT NULL,
+sno varchar(3) not null,
  
-cno VARCHAR(5) NOT NULL,
+cno varchar(5) not null,
  
-degree NUMERIC(10,1) NOT NULL,
+degree numeric(10,1) not null,
  
-PRIMARY KEY (sno, cno)
+primary key (sno, cno)
  
 );
 
  
-CREATE TABLE students
+create table students
  
 (
  
-sno VARCHAR(3) NOT NULL,
+sno varchar(3) not null,
  
-sname VARCHAR(4) NOT NULL,
+sname varchar(4) not null,
  
-ssex VARCHAR(2) NOT NULL,
+ssex varchar(2) not null,
  
-sbirthday DATETIME,
+sbirthday datetime,
  
-class VARCHAR(5),
+class varchar(5),
  
-PRIMARY KEY (sno)
+primary key (sno)
  
 );
 
 
-CREATE TABLE teachers
+create table teachers
  
 (
  
-tno VARCHAR(3) NOT NULL,
+tno varchar(3) not null,
  
-tname VARCHAR(4),
+tname varchar(4),
  
-tsex VARCHAR(2),
+tsex varchar(2),
  
-tbirthday DATETIME,
+tbirthday datetime,
  
-prof VARCHAR(6),
+prof varchar(6),
  
-depart VARCHAR(10),
+depart varchar(10),
  
-PRIMARY KEY (tno)
+primary key (tno)
  
 )
-INSERT INTO STUDENTS (SNO,SNAME,SSEX,SBIRTHDAY,CLASS) VALUES (108 ,'曾华' ,'男' ,'1977-09-01',95033);
+insert into STUDENTS (SNO,SNAME,SSEX,SBIRTHDAY,CLASS) values (108 ,'曾华' ,'男' ,'1977-09-01',95033);
  
-INSERT INTO STUDENTS (SNO,SNAME,SSEX,SBIRTHDAY,CLASS) VALUES (105 ,'匡明' ,'男' ,'1975-10-02',95031);
+insert into STUDENTS (SNO,SNAME,SSEX,SBIRTHDAY,CLASS) values (105 ,'匡明' ,'男' ,'1975-10-02',95031);
  
-INSERT INTO STUDENTS (SNO,SNAME,SSEX,SBIRTHDAY,CLASS) VALUES (107 ,'王丽' ,'女' ,'1976-01-23',95033);
+insert into STUDENTS (SNO,SNAME,SSEX,SBIRTHDAY,CLASS) values (107 ,'王丽' ,'女' ,'1976-01-23',95033);
  
-INSERT INTO STUDENTS (SNO,SNAME,SSEX,SBIRTHDAY,CLASS) VALUES (101 ,'李军' ,'男' ,'1976-02-20',95033);
+insert into STUDENTS (SNO,SNAME,SSEX,SBIRTHDAY,CLASS) values (101 ,'李军' ,'男' ,'1976-02-20',95033);
  
-INSERT INTO STUDENTS (SNO,SNAME,SSEX,SBIRTHDAY,CLASS) VALUES (109 ,'王芳' ,'女' ,'1975-02-10',95031);
+insert into STUDENTS (SNO,SNAME,SSEX,SBIRTHDAY,CLASS) values (109 ,'王芳' ,'女' ,'1975-02-10',95031);
  
-INSERT INTO STUDENTS (SNO,SNAME,SSEX,SBIRTHDAY,CLASS) VALUES (103 ,'陆君' ,'男' ,'1974-06-03',95031);
+insert into STUDENTS (SNO,SNAME,SSEX,SBIRTHDAY,CLASS) values (103 ,'陆君' ,'男' ,'1974-06-03',95031);
  
-INSERT INTO TEACHERS(TNO,TNAME,TSEX,TBIRTHDAY,PROF,DEPART) VALUES (804,'易天','男','1958-12-02','副教授','计算机系');
+insert into TEACHERS(TNO,TNAME,TSEX,TBIRTHDAY,PROF,DEPART) values (804,'易天','男','1958-12-02','副教授','计算机系');
  
-INSERT INTO TEACHERS(TNO,TNAME,TSEX,TBIRTHDAY,PROF,DEPART) VALUES (856,'王旭','男','1969-03-12','讲师','电子工程系');
+insert into TEACHERS(TNO,TNAME,TSEX,TBIRTHDAY,PROF,DEPART) values (856,'王旭','男','1969-03-12','讲师','电子工程系');
  
-INSERT INTO TEACHERS(TNO,TNAME,TSEX,TBIRTHDAY,PROF,DEPART) VALUES (825,'李萍','女','1972-05-05','助教','计算机系');
+insert into TEACHERS(TNO,TNAME,TSEX,TBIRTHDAY,PROF,DEPART) values (825,'李萍','女','1972-05-05','助教','计算机系');
  
-INSERT INTO TEACHERS(TNO,TNAME,TSEX,TBIRTHDAY,PROF,DEPART) VALUES (831,'陈冰','女','1977-08-14','助教','电子工程系');
+insert into TEACHERS(TNO,TNAME,TSEX,TBIRTHDAY,PROF,DEPART) values (831,'陈冰','女','1977-08-14','助教','电子工程系');
  
-INSERT INTO COURSES(CNO,CNAME,TNO)VALUES ('3-105' ,'计算机导论',825);
+insert into COURSES(CNO,CNAME,TNO)values ('3-105' ,'计算机导论',825);
  
-INSERT INTO COURSES(CNO,CNAME,TNO)VALUES ('3-245' ,'操作系统' ,804);
+insert into COURSES(CNO,CNAME,TNO)values ('3-245' ,'操作系统' ,804);
  
-INSERT INTO COURSES(CNO,CNAME,TNO)VALUES ('6-166' ,'模拟电路' ,856);
+insert into COURSES(CNO,CNAME,TNO)values ('6-166' ,'模拟电路' ,856);
  
-INSERT INTO COURSES(CNO,CNAME,TNO)VALUES ('6-106' ,'概率论' ,831);
+insert into COURSES(CNO,CNAME,TNO)values ('6-106' ,'概率论' ,831);
  
-INSERT INTO COURSES(CNO,CNAME,TNO)VALUES ('9-888' ,'高等数学' ,831);
+insert into COURSES(CNO,CNAME,TNO)values ('9-888' ,'高等数学' ,831);
  
-INSERT INTO SCORES(SNO,CNO,DEGREE)VALUES (103,'3-245',86);
+insert into SCORES(SNO,CNO,DEGREE)values (103,'3-245',86);
  
-INSERT INTO SCORES(SNO,CNO,DEGREE)VALUES (105,'3-245',75);
+insert into SCORES(SNO,CNO,DEGREE)values (105,'3-245',75);
  
-INSERT INTO SCORES(SNO,CNO,DEGREE)VALUES (109,'3-245',68);
+insert into SCORES(SNO,CNO,DEGREE)values (109,'3-245',68);
  
-INSERT INTO SCORES(SNO,CNO,DEGREE)VALUES (103,'3-105',92);
+insert into SCORES(SNO,CNO,DEGREE)values (103,'3-105',92);
  
-INSERT INTO SCORES(SNO,CNO,DEGREE)VALUES (105,'3-105',88);
+insert into SCORES(SNO,CNO,DEGREE)values (105,'3-105',88);
  
-INSERT INTO SCORES(SNO,CNO,DEGREE)VALUES (109,'3-105',76);
+insert into SCORES(SNO,CNO,DEGREE)values (109,'3-105',76);
  
-INSERT INTO SCORES(SNO,CNO,DEGREE)VALUES (101,'3-105',64);
+insert into SCORES(SNO,CNO,DEGREE)values (101,'3-105',64);
  
-INSERT INTO SCORES(SNO,CNO,DEGREE)VALUES (107,'3-105',91);
+insert into SCORES(SNO,CNO,DEGREE)values (107,'3-105',91);
  
-INSERT INTO SCORES(SNO,CNO,DEGREE)VALUES (108,'3-105',78);
+insert into SCORES(SNO,CNO,DEGREE)values (108,'3-105',78);
  
-INSERT INTO SCORES(SNO,CNO,DEGREE)VALUES (101,'6-166',85);
+insert into SCORES(SNO,CNO,DEGREE)values (101,'6-166',85);
  
-INSERT INTO SCORES(SNO,CNO,DEGREE)VALUES (107,'6-106',79);
+insert into SCORES(SNO,CNO,DEGREE)values (107,'6-106',79);
  
-INSERT INTO SCORES(SNO,CNO,DEGREE)VALUES (108,'6-166',81);
+insert into SCORES(SNO,CNO,DEGREE)values (108,'6-166',81);
 
 
 #多表联查
 #1.笛卡尔积
-SELECT * FROM dept,emp
+select * from dept,emp
 #方式二用join连接多张表
-SELECT * FROM dept JOIN emp
-WHERE dept.deptno = emp.deptno
+select * from dept join emp
+where dept.deptno = emp.deptno
 
-SELECT dept.dname,emp.* FROM dept,emp
-WHERE dept.deptno = emp.deptno
+select dept.dname,emp.* from dept,emp
+where dept.deptno = emp.deptno
 
-SELECT dept.*, emp.ename FROM dept, emp
-WHERE dept.deptno = emp.deptno  #表关系
-AND dept.deptno = 1		#业务条件
+select dept.*, emp.ename from dept, emp
+where dept.deptno = emp.deptno  #表关系
+and dept.deptno = 1		#业务条件
 
-SELECT dept.*, emp.* FROM dept,emp
-WHERE dept.deptno = emp.deptno
-AND dept.deptno >1
+select dept.*, emp.* from dept,emp
+where dept.deptno = emp.deptno
+and dept.deptno >1
 
-SELECT * FROM courses, teachers
-WHERE courses.tno = teachers.tno
-AND teachers.tname = "易天"
+select * from courses, teachers
+where courses.tno = teachers.tno
+and teachers.tname = "易天"
 
-SELECT SUM(degree) FROM scores, courses
-WHERE scores.cno = courses.cno
-AND scores.cno = "3-105"
+select SUM(degree) from scores, courses
+where scores.cno = courses.cno
+and scores.cno = "3-105"
 
 #方式2：连接查询 用join链接多张表，很高效
-SELECT * FROM dept JOIN emp
-ON dept.deptno = emp.deptno
+select * from dept join emp
+on dept.deptno = emp.deptno
 
-SELECT * FROM dept JOIN emp
-ON dept.deptno = emp.deptno
+select * from dept join emp
+on dept.deptno = emp.deptno
 
-SELECT * FROM dept JOIN emp
-ON dept.deptno = emp.deptno
-WHERE dept.deptno > 1
+select * from dept join emp
+on dept.deptno = emp.deptno
+where dept.deptno > 1
 
-SELECT teachers.tname,courses.cname FROM courses JOIN teachers
-ON courses.tno = teachers.tno
-WHERE teachers.tname LIKE "%天"
+select teachers.tname,courses.cname from courses join teachers
+on courses.tno = teachers.tno
+where teachers.tname like "%天"
 
-SELECT courses.cname, SUM(scores.degree) FROM courses JOIN scores
-ON courses.cno = scores.cno
-WHERE courses.cname LIKE "%导论"  
+select courses.cname, SUM(scores.degree) from courses join scores
+on courses.cno = scores.cno
+where courses.cname like "%导论"  
 
 #方式3： 
-SELECT * FROM dept INNER JOIN
-ON dept.deptno = emp.deptno
+select * from dept inner join
+on dept.deptno = emp.deptno
 
-SELECT * FROM dept LEFT JOIN emp
-ON dept.deptno = emp.deptno
+select * from dept left join emp
+on dept.deptno = emp.deptno
 
-SELECT * FROM dept RIGHT JOIN emp
-ON dept.deptno = emp.deptno
+select * from dept right join emp
+on dept.deptno = emp.deptno
 
 
 #小表驱动大表，把结构简单或者数据量小的表放在前面当作左表
 #因为左表会查完，右表只差满足了条件的数据
 
-SELECT emp.ename, emp.sal FROM emp
+select emp.ename, emp.sal from emp
 
-SELECT dept.*, emp.ename FROM dept, emp
-WHERE dept.deptno = emp.deptno
-AND emp.ename = "jack" 
+select dept.*, emp.ename from dept, emp
+where dept.deptno = emp.deptno
+and emp.ename = "jack" 
 
-SELECT dept.*, emp.ename FROM dept, emp
-WHERE dept.deptno = emp.deptno
-AND emp.job = "总监" 
+select dept.*, emp.ename from dept, emp
+where dept.deptno = emp.deptno
+and emp.job = "总监" 
 
-SELECT sname, AVG(degree) FROM students, scores 
-WHERE students.sno = scores.sno
-AND students.sname = "李军"
+select sname, AVG(degree) from students, scores 
+where students.sno = scores.sno
+and students.sname = "李军"
 
-SELECT tname, courses.cname FROM courses,teachers
-WHERE courses.tno = teachers.tno
-AND teachers.tname = "陈冰"
+select tname, courses.cname from courses,teachers
+where courses.tno = teachers.tno
+and teachers.tname = "陈冰"
 
-SELECT dept.*, emp.ename FROM dept INNER JOIN emp
-ON dept.deptno = emp.deptno
-WHERE emp.ename = "jack" 
+select dept.*, emp.ename from dept inner join emp
+on dept.deptno = emp.deptno
+where emp.ename = "jack" 
 
-SELECT dept.*, emp.ename FROM dept INNER JOIN emp
-ON dept.deptno = emp.deptno
-WHERE emp.job = "总监" 
+select dept.*, emp.ename from dept inner join emp
+on dept.deptno = emp.deptno
+where emp.job = "总监" 
 
-SELECT sname, AVG(degree) FROM students INNER JOIN scores 
-ON students.sno = scores.sno
-WHERE students.sname = "李军"
+select sname, AVG(degree) from students inner join scores 
+on students.sno = scores.sno
+where students.sname = "李军"
 
-SELECT tname, courses.cname FROM courses INNER JOIN teachers
-ON courses.tno = teachers.tno
-WHERE teachers.tname = "陈冰"
+select tname, courses.cname from courses inner join teachers
+on courses.tno = teachers.tno
+where teachers.tname = "陈冰"
 
-SELECT SUM(scores.degree) FROM scores WHERE Scores.cno = (SELECT courses.cno FROM courses WHERE courses.cname LIKE "%导论") 
-
-
-SELECT courses.cname FROM courses WHERE courses.tno = (SELECT teachers.tno FROM teachers WHERE teachers.tname = "易天")
-
-SELECT emp.ename FROM emp WHERE emp.deptno = (SELECT dept.deptno FROM dept WHERE dept.deptno = 1)
-
-SELECT emp.* FROM emp WHERE sal > (SELECT AVG(sal) FROM emp)
-
-SELECT emp.ename FROM emp WHERE emp.deptno IN (SELECT dept.deptno FROM dept WHERE dept.loc = "二区")
+select SUM(scores.degree) from scores where Scores.cno = (select courses.cno from courses where courses.cname like "%导论") 
 
 
-SELECT dept.* FROM dept,emp WHERE emp.deptno = dept.deptno AND emp.ename = 'jack'
-SELECT dept.* FROM dept JOIN emp ON emp.deptno = dept.deptno WHERE emp.ename = 'jack'
+select courses.cname from courses where courses.tno = (select teachers.tno from teachers where teachers.tname = "易天")
 
-SELECT dept.* FROM dept WHERE deptno = (SELECT deptno FROM emp WHERE emp.ename = 'jack')
+select emp.ename from emp where emp.deptno = (select dept.deptno from dept where dept.deptno = 1)
 
+select emp.* from emp where sal > (select AVG(sal) from emp)
 
-SELECT courses.cname FROM courses WHERE courses.tno = (SELECT teachers.tno FROM teachers WHERE teachers.tname = '陈冰')
-
-SELECT courses.cname FROM courses,teachers
-WHERE courses.tno = teachers.tno
-AND teachers.tname = '陈冰'
-
-SELECT courses.cname FROM courses JOIN teachers
-ON courses.tno = teachers.tno
-WHERE teachers.tname = '陈冰'
+select emp.ename from emp where emp.deptno in (select dept.deptno from dept where dept.loc = "二区")
 
 
-#index 索引 标签
-SHOW INDEX FROM dept;
+select dept.* from dept,emp where emp.deptno = dept.deptno and emp.ename = 'jack'
+select dept.* from dept join emp on emp.deptno = dept.deptno where emp.ename = 'jack'
+
+select dept.* from dept where deptno = (select deptno from emp where emp.ename = 'jack')
+
+
+select courses.cname from courses where courses.tno = (select teachers.tno from teachers where teachers.tname = '陈冰')
+
+select courses.cname from courses,teachers
+where courses.tno = teachers.tno
+and teachers.tname = '陈冰'
+
+select courses.cname from courses join teachers
+on courses.tno = teachers.tno
+where teachers.tname = '陈冰'
+
+create index loc_index on dept(loc)
+create index name_index on emp(ename) 
+show index from emp
+
+select * from emp where ename = 'jack'
+#检查sql的执行效率
+explain
+select * from emp where ename = 'jack'
+
+#创建普通索引
+create index teachernames on teachers(tname)
+
+explain 
+select * from teachers where tname like "%冰"
+show index from teachers
+#创建唯一索引
+create unique index bindex on dept(loc)
+
+#一个字段索引包含多个字段，用时要遵循最左原则，否则复合索引失效
+create index eIndex on emp(ename,sal,empno)
+#查看数据库效率
+show index from emp
+
+explain
+select sal from emp where sal = 90000 and ename = 'jack'
+
+#删除索引
+
+alter table emp drop index name_index
+show index from emp
+
+#创建视图： create view 视图名 as select语句，提高了SQL的复用性
+#视图
+select emp.ename from emp where emp.ename like "%a%" 
+
+create view v2 as 
+select * from emp where emp.ename like "%a%" 
+
+select * from v2
+#坏处：提高了SQL的复用性+屏蔽了业务表的复杂性+数据共享
+#坏处：是一张单独的表存了业务表的数据造成了数据重读+无法优化
+
+#插入一条部门表的数据
+insert into dept values(null,"java","洛阳")
