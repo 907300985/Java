@@ -1,0 +1,140 @@
+/*
+SQLyog 企业版 - MySQL GUI v8.14 
+MySQL - 5.5.5-10.5.12-MariaDB : Database - cgb2109
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`cgb2109` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+USE `cgb2109`;
+
+/*Table structure for table `b` */
+
+DROP TABLE IF EXISTS `b`;
+
+CREATE TABLE `b` (
+  `password` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `b` */
+
+insert  into `b`(`password`) values ('abc');
+
+/*Table structure for table `d` */
+
+DROP TABLE IF EXISTS `d`;
+
+CREATE TABLE `d` (
+  `tel` char(11) DEFAULT NULL,
+  UNIQUE KEY `tel` (`tel`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `d` */
+
+insert  into `d`(`tel`) values ('1111111'),('12345678901');
+
+/*Table structure for table `dept` */
+
+DROP TABLE IF EXISTS `dept`;
+
+CREATE TABLE `dept` (
+  `deptno` int(11) DEFAULT NULL,
+  `dname` varchar(20) DEFAULT NULL,
+  `loc` varchar(13) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `dept` */
+
+insert  into `dept`(`deptno`,`dname`,`loc`) values (NULL,'accounting','一区'),(NULL,'accounting','一区'),(NULL,'accounting','一区'),(NULL,'accounting','一区'),(NULL,'accounting','一区'),(NULL,'accounting','一区'),(NULL,'accounting','一区'),(NULL,'accounting','一区');
+
+/*Table structure for table `dept2` */
+
+DROP TABLE IF EXISTS `dept2`;
+
+CREATE TABLE `dept2` (
+  `deptno` int(11) NOT NULL AUTO_INCREMENT,
+  `dname` varchar(20) DEFAULT NULL,
+  `loc` varchar(13) DEFAULT NULL,
+  PRIMARY KEY (`deptno`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+/*Data for the table `dept2` */
+
+insert  into `dept2`(`deptno`,`dname`,`loc`) values (5,'operations','二区'),(6,'operations','二区');
+
+/*Table structure for table `e` */
+
+DROP TABLE IF EXISTS `e`;
+
+CREATE TABLE `e` (
+  `password` varchar(10) NOT NULL,
+  UNIQUE KEY `password` (`password`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `e` */
+
+insert  into `e`(`password`) values ('123142');
+
+/*Table structure for table `emp` */
+
+DROP TABLE IF EXISTS `emp`;
+
+CREATE TABLE `emp` (
+  `empno` int(11) NOT NULL AUTO_INCREMENT,
+  `ename` varchar(10) DEFAULT NULL,
+  `job` varchar(10) DEFAULT NULL,
+  `mgr` int(11) DEFAULT NULL,
+  `hiredate` date DEFAULT NULL,
+  `sal` double DEFAULT NULL,
+  `comm` double DEFAULT NULL,
+  `deptno` int(11) DEFAULT NULL,
+  PRIMARY KEY (`empno`)
+) ENGINE=InnoDB AUTO_INCREMENT=501 DEFAULT CHARSET=utf8;
+
+/*Data for the table `emp` */
+
+insert  into `emp`(`empno`,`ename`,`job`,`mgr`,`hiredate`,`sal`,`comm`,`deptno`) values (100,'jack','副总',NULL,'2002-05-01',90000,NULL,1),(200,'tony','总监',100,'2015-02-02',10000,2000,2),(300,'hana','经理',200,'2017-02-02',8000,1000,2),(400,'leo','员工',300,'2019-02-22',3000,200.12,2),(500,'liu','员工',300,'2019-03-19',3500,200.58,2);
+
+/*Table structure for table `g` */
+
+DROP TABLE IF EXISTS `g`;
+
+CREATE TABLE `g` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+/*Data for the table `g` */
+
+insert  into `g`(`id`,`name`,`age`) values (2,'ross',18),(3,'yilang',25),(4,'nandi',22);
+
+/*Table structure for table `tb_order_detail` */
+
+DROP TABLE IF EXISTS `tb_order_detail`;
+
+CREATE TABLE `tb_order_detail` (
+  `id` int(11) DEFAULT NULL,
+  `Age` int(11) DEFAULT NULL,
+  `Height` double DEFAULT NULL,
+  `Name` varchar(30) DEFAULT NULL,
+  `Salary` double DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+/*Data for the table `tb_order_detail` */
+
+insert  into `tb_order_detail`(`id`,`Age`,`Height`,`Name`,`Salary`) values (14311495,22,1.78,'男帝',99999),(14311496,25,1.71,'一郎',99999),(14311497,23,1.72,'帅龙',99999),(14311498,21,1.75,'小明',99999);
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;

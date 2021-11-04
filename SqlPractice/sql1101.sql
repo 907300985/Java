@@ -41,3 +41,34 @@ SELECT * FROM emp WHERE
 empno IN (100,200,300)
 
 SELECT * FROM emp WHERE ename LIKE "%a%"
+
+#今日的练习
+SELECT ename FROM emp WHERE deptno = 2
+SELECT ename FROM emp WHERE deptno = 2 AND ename LIKE "%o%"
+SELECT DISTINCT ename FROM emp WHERE empno LIKE "1%"
+
+SELECT ename FROM emp WHERE YEAR(hiredate)>=2015 AND YEAR(hiredate)<=2019
+SELECT sal*12 + IFNULL(comm,0)*12 FROM emp WHERE job = "副总"
+
+#查询奖金为null的员工信息
+
+SELECT ename FROM emp WHERE IFNULL (comm,0) = 0
+SELECT * FROM emp WHERE comm IS NOT NULL
+SELECT* FROM emp WHERE YEAR(hiredate) BETWEEN 2019 AND 2020
+SELECT * FROM emp LIMIT 1,4
+
+SELECT * FROM emp WHERE job = "员工" LIMIT 1
+
+#从小到大排序
+SELECT * FROM emp ORDER BY empno
+SELECT * FROM emp ORDER BY sal
+SELECT * FROM emp ORDER BY job
+
+SELECT * FROM emp WHERE YEAR(hiredate) BETWEEN 2015 AND 2019 ORDER BY sal LIMIT 2  
+
+#每个员工的年薪
+SELECT ename, sal * 12 FROM emp
+SELECT * FROM emp WHERE YEAR(hiredate) < 2019
+
+
+SELECT * ,MAX(sal )FROM emp 
