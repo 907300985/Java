@@ -349,3 +349,11 @@ select * from v2
 
 #插入一条部门表的数据
 insert into dept values(null,"java","洛阳")
+insert into dept(loc) values("老城")
+insert into dept(loc,dname) values("西二旗","php")
+
+create index scd on scores (sno,cno,degree)
+show index from scores
+
+explain
+select degree from scores where sno = 101 and degree = 64.0
