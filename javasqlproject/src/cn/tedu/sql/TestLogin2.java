@@ -12,19 +12,16 @@ import java.util.Scanner;
  * @Date:2021/11/5 16:31
  * @Author:NANDI_GUO
  */
-public class Test2 {
+public class TestLogin2 {
     public static void main(String[] args) throws Exception {
         login();
     }
 
     public static void login() throws Exception {
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        String url = ("jdbc:mysql:///cgb2109");
-        String user = "root";
-        String psd = "0000";
-        String regex = "[0-9a-zA-Z]*";
 
-        Connection conn = DriverManager.getConnection(url,user,psd);
+        String regex = "[0-9a-zA-Z]*";
+        Connection conn = JDBCUtils.get();
+
         Statement st = conn.createStatement();
         ResultSet rs;
         String name,pwd,sq;
@@ -35,7 +32,7 @@ public class Test2 {
             pwd = new Scanner(System.in).nextLine();
             if (name.matches(regex)&&pwd.matches(regex)){
                 sq = ("select * from user where"+ " name='"+ name + "'and" + " pwd='" + pwd + "'");
-                System.out.println(sq);
+                //System.out.println(sq);
                 rs = st.executeQuery(sq);
                 if (rs.next()){
                     System.out.println("登陆成功");
