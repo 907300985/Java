@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<h1 align="center" style="color: hotpink">学生管理系统MIS</h1>
+			
+			<style>
+				.a{
+					width: 300px;
+					height: 30px;
+					border-radius: 10px;
+				}
+				
+				div{
+					color: deeppink
+				}
+				p{
+					border-radius: 10px;
+					color: blueviolet
+				}
+				.buttons{
+					border-radius: 7px;
+				}
+			</style>
+	</head>
+	<body style="background:  url(./materials/nezu.jpg); background-position: calc(); 
+	background-size: 100%; background-repeat: no-repeat;">
+		<form align = "center" method="post" action="#">
+			<table>
+				
+				<div>姓名:</div>
+				<input class = "a" name="user" placeholder="输入姓名..."/>
+				<div>年龄:</div>
+				<input class = "a" type = "text" name = "age" placeholder="输入年龄..."/>
+				
+				<p>
+				<div>性别:(单选框)
+				<label>男</label>
+				<input name="sex" type="radio" value="1" checked="">
+				<label>女</label>
+				<input name="sex" type="radio" value="0">
+				</div>
+				</p>
+				
+				<p>
+				<div class="mui-input-row mui-checkbox " >
+					<span>爱好:(多选)&nbsp</span>
+					
+					<input name="hobby" type="checkbox" value="0">
+					<label>乒乓球</label>
+					
+					<input name="hobby" type="checkbox" value="1">
+					<label>爬山</label>
+					
+					<input name="hobby" type="checkbox" value="2">
+					<label>唱歌</label>
+				</div>
+				</p>
+				
+				<p>
+				<span>学历:(下拉框) &nbsp</span>
+				<select name="edu">
+					<option value="0"> 硕士</option>
+					<option value="1"> 本科</option>
+				</select>
+				</p>
+				
+				<p>
+					入学日期: <br />
+					<input name ="intime" type="date" />
+				</p>
+				
+				<p>
+					<button class="buttons" type="submit" style="background-color: blue ; color: white;">保存</button>
+					<button class="buttons" type="reset" style="background-color: hotpink ; color: white;">取消</button>
+				</p>
+				
+			</table>
+		</form>
+	</body>
+</html>

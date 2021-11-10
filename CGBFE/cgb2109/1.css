@@ -1,0 +1,24 @@
+			body{
+				font-size: 8px;
+				width: 280px;
+				margin: 5px;
+			}
+			.please{
+				font-size: 22px;
+			}
+			.me{
+				padding-left: 60px;
+			}
+			.doorName{
+				font-size: 10px;
+			}
+			.note{
+				text-indent: 20px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+			}
+			.obj{
+				vertical-align: top;
+			}
+			.img{
+				margin-left: 200px;
