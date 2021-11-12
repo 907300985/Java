@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>测试数据类型</title>
+		<script>
+			function test(){
+				var i = document.getElementById("data").value
+				if(i >= 80 && i<= 100){
+					alert("优秀");
+				}else{
+					alert("你不行")
+				}
+			}
+
+			
+			
+			// //命令行输出
+			// console.log(10)
+			// console.log(typeof(100))
+			// //数据类型: number string boolean null undefined
+			// //三元运算符
+			// var e = 10;
+			// var f = 5;
+			// var g = e > f? e:f;
+			// alert(g)
+			
+			
+			
+			// //===================
+			// alert(2.4+3.6);//结果是number类型的6
+			// alert("10");
+			// alert("10"+10);
+			// alert("10"+10+20);
+			// alert(10+20+"10");
+			// alert(false);
+			// alert(true);
+			// alert(null);  
+			// var s;
+			// alert(s)
+		</script>
+	</head>
+	<body>
+		<input type="text" name="score" id="data"/>
+		<input type="submit" value="按钮" onclick="test()" />
+	</body>
+</html>

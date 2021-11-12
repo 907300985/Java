@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>花钱</title>
+		
+		<script>
+			var money = 100000000;
+			var day = 0;
+			// while (money > 1){
+			// 	money /= 2;
+			// 	day++;
+			// }
+			// alert(day+1)
+			function spend(money){
+				if (money <= 1){
+					return 1;
+				}else{
+					spend(money/2);
+					return ++day
+				}
+			}
+			alert(spend(money))
+			
+			
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
