@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10e40ac1-ad7d-4b68-a04b-4bbce7767468" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SqlPractice/sql1101.sql" beforeDir="false" afterPath="$PROJECT_DIR$/SqlPractice/sql1101.sql" afterDir="false" />
-    </list>
+    <list default="true" id="10e40ac1-ad7d-4b68-a04b-4bbce7767468" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/teduproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="SvnConfiguration">
@@ -55,6 +53,7 @@
       <updated>1632823500508</updated>
       <workItem from="1632823508616" duration="103000" />
       <workItem from="1635936522658" duration="12000" />
+      <workItem from="1636789361023" duration="5000" />
     </task>
     <servers />
   </component>
