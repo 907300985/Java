@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>复习Vue案例</title>
+		<script src = "vue.js"></script>
+	</head>
+		<div id = "x">
+		{{message}
+		{{show()}}
+		</div>
+		
+		<script>
+			new Vue({
+				el:"#x",
+				data:{message:"行"},
+				methods:{
+					show:function(){
+						console.log("吃啥都行");
+					}
+				}
+			})
+		</script>
+	<body>
+	</body>
+</html>

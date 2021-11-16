@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>测试Vue解析复杂的数据</title>
+		<script src = "vue.js"></script>
+	</head>
+	<body>
+		<div id = "app">
+			{{name}}
+			{{p.name}}
+			<h2>{{persons[0].name}}</h2>
+			<h2>{{persons[0].age}}</h2>
+			
+		
+		</div>
+		<script>
+			var vm = new Vue({
+				el:"#app",
+				data:{
+					name: "Jack",
+					p:{
+						name:"lisi",
+						age: 20
+					},
+					h:{
+						name:"小芳",
+						age: 22
+					},
+					persons:[
+						{name:"jack",age:20},
+						{name:"rose",age:10}
+					]
+				}
+			})
+		</script>
+	</body>
+</html>

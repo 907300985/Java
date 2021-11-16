@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>新格式Vue</title>
+		<script src="vue.js"></script>
+	</head>
+	<body>
+		<div id = "app">{{msg}}</div>
+		<script>		
+		var vm = new Vue({
+			el:"#app",
+			// data: 
+			// function(){
+			// 	return{
+			// 		msg:"一郎爱干大米饭"
+			// 	}
+			// },
+			data(){
+				return{
+					msg:"二郎爱干大米饭"
+				}
+			}
+		})
+		</script>
+
+	</body>
+</html>

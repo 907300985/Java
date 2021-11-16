@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>测试Vue指令</title>
+		<script src="vue.js"></script>
+	</head>
+	<body>
+		<!-- html -->
+		<a href = "http://www.baidu.com">百度</a>
+		
+		<!-- vue -->
+		<p id = "app">
+			<button v-on:click="show()">点我</button>
+			<button v-on:dblclick="print(100)">发钱</button>
+			<button @click="add(1,2,3)">加我</button>
+			
+			<a v-bind:href="url">vue百度</a>
+			
+		</p>
+		<script>
+			new Vue({
+				el:"#app",
+				data:{
+					url:"http://www.baidu.com/"
+				},
+				methods:{
+					 show(){
+						alert("shit!");
+					},
+					print(a){
+						alert(a);
+					},
+					add(a,b,c){
+						alert(a+b+c);
+					}
+				}
+			})
+		</script>
+	</body>
+</html>

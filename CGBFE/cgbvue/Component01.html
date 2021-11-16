@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Component组件</title>
+		<script src="vue.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<Person>吃啥都行</Person>
+		</div>
+		<script>
+			Vue.component('Person',{
+				template:"<h1>姓名:一郎,年龄:25,一顿三碗大米饭</h1>"
+			})
+			new Vue({
+				el:"#app",
+			})
+		</script>
+		
+	</body>
+</html>

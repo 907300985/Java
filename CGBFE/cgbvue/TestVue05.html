@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>测试vue指令</title>
+		<script src="vue.js"></script>
+		<style>
+			body{
+				font-size: 20px;
+				color:  blueviolet;
+				[v-cloak]{
+					display: none;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class ="a" v-cloak>
+			{{address}}
+			{{address}}
+			{{address}}
+			<br />
+			<input type="text" v-model="address"/>
+		</div>
+		<script>
+			new Vue({
+				el: ".a",
+				data(){
+					return {
+						address:"北京"
+					}
+				}
+			})
+		</script>
+	</body>
+</html>

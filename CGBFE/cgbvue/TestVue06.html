@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>测试 vue指令</title>
+		<script src="vue.js"></script>
+		<style>
+			input{
+				border-width: 3px;
+				border-color: gold;
+				font-size: 20px;
+			}
+			div{
+				font-size: 20px;
+				color: brown;
+			}
+		</style>
+	</head>
+	<body>
+		<div id = "app">
+			<h1>{{name}}</h1>
+			<h1 v-text="name"></h1>
+			<h1 v-html="name"></h1>
+			<!-- v-if -->
+			<input type="text" v-model="age"/>
+			<div v-if="age>=18">成年人</div>
+			<div v-else-if="age<18&&age>0">未成年</div>
+			<div v-else>未出生</div>
+			<br />
+		
+			<input type="text" v-model="person.salary"/>
+			<div v-if="person.salary>=2000">金领</div>
+			<div v-else-if="person.salary>=1000">白领</div>
+			<div v-else>屌丝</div>
+			
+			<p v-for="i,index in lobby">{{i.name}}---{{index}}</p>
+			
+		</div>
+		<script>
+			new Vue({
+				el:"#app",
+				data(){
+					return{
+						name : "<p>tony</p>",
+						age  : 0,
+						person: {
+							salary : 0
+						},
+						lobby:[{name:"一郎"},{name:"二郎"},{name:"三郎"}]
+					}
+				}
+			})
+		</script>
+	</body>
+</html>

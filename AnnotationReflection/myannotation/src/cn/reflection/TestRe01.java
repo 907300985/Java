@@ -22,10 +22,10 @@ public class TestRe01 {
 //        System.out.println(c5);
 
         Class c1 = Class.forName("cn.reflection.Person");
-        Constructor con = c1.getConstructor();
+        Constructor con = c1.getDeclaredConstructor();
+        con.setAccessible(true);
         Object o = con.newInstance();
-        Method reeat = c1.getMethod("eat");
-        reeat.invoke(o);
+
 
 
     }
@@ -33,8 +33,8 @@ public class TestRe01 {
 class Person{
     String name;
 
-    public Person() {
-        this.name = name;
+    private Person() {
+        System.out.println("hello world");
     }
 
     public Person(String name) {
@@ -43,16 +43,5 @@ class Person{
 
     public void eat(){
         System.out.println("一郎吃啥都行");
-    }
-}
-
-class Student extends Person{
-    public Student(){
-        this.name = "学生";
-    }
-}
-class Teacher extends Person{
-    public Teacher() {
-        this.name = "老师";
     }
 }
