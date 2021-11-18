@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>测试VUE路由</title>
+		<script src="vue.js"></script>
+		<script src="vue-router.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<!-- 点击不同的元素，匹配到不同的组件 -->
+			<router-link to="/home">主页</router-link>
+			<router-link to="/help">帮助页</router-link>
+			<!-- 展示组建的内容 -->
+			<router-view></router-view>
+		</div>
+		<script>
+			
+			var home={
+				template:"<h1>我是主页...</h1>"
+			}
+			var help={
+				template:"<h1>我是帮助...</h1>"
+			}
+			//3.2创建路由的细则
+			var router=new VueRouter({
+				//属性名：属性值
+				routes:[
+					//根据不同的请求，路由到不同的组件
+					//path: 访问路径，component:组件名称
+					{path:"/home",component:home},
+					{path:"/help",component:help}
+				]  
+			})
+			
+			new Vue({
+				el:"#app",
+				//router: router key和value一样时可以简写
+				router//同上，简写模式
+				
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>重写Router</title>
+		<script src="vue.js"></script>
+		<script src="vue-router.js"></script>
+		
+		<style>
+			div{
+				font-size: 30px;
+				text-align: center;
+				color: cornflowerblue;
+			}
+			
+			.r{
+				margin: 75px;
+			}
+			.b{
+				border: 2px solid  #6495ED;
+				text-align: center;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="app" >
+			<div class="b">
+				<router-link to="/hello" class="r">hello</router-link>
+				<router-link to="/future" class="r">future</router-link>
+				<router-link to="/world" class="r">world</router-link>
+			</div>
+			<router-view></router-view>
+		</div>
+		<script>
+			let hello={
+				template:"<h2>你好</h2>"
+			}
+			
+			let world={
+				template:"<h2>世界</h2>"
+			}
+			
+			let future={
+				template:"<h2>未来</h2>"
+			}
+			
+			
+			let router = new VueRouter({
+				routes:[
+					{path:"/hello",component:hello},
+					{path:"/future",component:future},
+					{path:"/world",component:world}
+				]
+			})
+			
+			new Vue({
+				el:"#app",
+				router
+			})
+		</script>
+		
+	</body>
+</html>

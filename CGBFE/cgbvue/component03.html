@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>测试 组件</title>
+		<script src="vue.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<Person></Person>
+			<Com2></Com2>
+		</div>
+		<div id="app2">
+			<Person></Person>
+			<Com2></Com2>
+			<Com3></Com3>
+		</div>
+		<script>
+			Vue.component("Person",{template:"<h1>一郎今天干了三碗大米饭</h1>"})
+			new Vue({
+				el: "#app"
+			}),
+			new Vue({
+				el:"#app2",
+				components:{
+					"Com2" : {
+						template:"<h1>一郎早上干了饭</h1>"
+					},
+					"Com3":{
+						template:"<h2>一郎快别吃了</h2>"
+					}
+				}
+			})
+		</script>
+	</body>
+</html>
