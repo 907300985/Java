@@ -23,6 +23,13 @@ import java.util.*;
 public class ServletDemo6 extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("utf-8");
+        /**
+         * doGet没有中文乱码，因为Tomcat自动配置好了URIEncoding = "utf-8"
+         * doPost提交的如果有中文一定乱码，需要自己在第一行进行配置
+         * */
+        String m = request.getMethod();
+        System.out.println(m);
         doGet(request,response);
     }
 
@@ -37,7 +44,7 @@ public class ServletDemo6 extends HttpServlet {
             System.out.println(Arrays.toString(p));
         }
         */
-        
+
         String user = request.getParameter("user");
         String pwd = request.getParameter("pwd");
 
@@ -61,6 +68,7 @@ public class ServletDemo6 extends HttpServlet {
 
             s.close();
             c.close();
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
