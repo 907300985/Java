@@ -1,4 +1,4 @@
-select * from emp order by sal desc, ename asc 
+`cgb2109``user``user``user``dept``user`select * from emp order by sal desc, ename asc 
 
 select job,COUNT(1) from emp
 group by job 
@@ -357,3 +357,5 @@ show index from scores
 
 explain
 select degree from scores where sno = 101 and degree = 64.0
+
+insert into lol values(907300985,"她比凯尔温柔","手游一区")

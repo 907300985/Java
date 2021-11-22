@@ -34,7 +34,8 @@ public class ServletDemo6 extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) {
-        /** request的实现
+        /**========================================
+         * request的实现
         String u = request.getQueryString();
         System.out.println(u);
         String[] data = u.split("&");
@@ -43,7 +44,7 @@ public class ServletDemo6 extends HttpServlet {
             String[] p = s.split("=");
             System.out.println(Arrays.toString(p));
         }
-        */
+        ===========================================*/
 
         String user = request.getParameter("user");
         String pwd = request.getParameter("pwd");
