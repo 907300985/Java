@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title前端提交></title>
+		<script src="vue.js"></script>
+		<style>
+			body{
+				background-color:  bisque;
+				font-size: 20px;
+			}
+			div{
+				text-align: center;
+				margin-top: 250px;
+			}
+			input{
+				margin: 10px;
+				border-radius: 5px;
+				padding: 10px;
+			}
+			.i{
+				width: 300px;
+			}
+			.b{
+				width: 100px;
+				color: white;
+				background-color:  cornflowerblue;
+				
+			}
+			.nu,.b{
+				border-width: 4px;
+				border-color:  antiquewhite
+			}
+			.nu{
+				background-color: gray;
+				color: white;
+				width: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<iframe  id="submitFrame" style="display: none;width:0; height:0" name="submitFrame"  src="about:blank"></iframe> 
+		
+		<form id="themeForm" method="get" action="http://localhost:8080/javaweb03_war_exploded/ServletDemo6" target="submitFrame">
+			<div id="app">
+				<h3>注册账号</h3>
+					姓名:<input class="i"  type="text" placeholder="请输入姓名..." name="user" v-model="user"><br />
+					密码:<input class="i"  type="password" placeholder="请输入密码..." name="pwd" v-model="pwd"/><br />
+				
+					<span v-if="user===''&&pwd===''">
+						<input class="nu" type="button" value="均为空值" @mouseenter="change()" :style="cha" @mouseleave="change2()" :style="cha"/>
+					</span>
+					<span v-else-if="user===''">
+						<input class="nu" type="button" value="账号为空" @mouseenter="change()" :style="cha" @mouseleave="change2()" :style="cha"/>
+					</span>
+					<span v-else-if="pwd===''">
+						<input class="nu" type="button" value="密码为空" @mouseenter="change()" :style="cha" @mouseleave="change2()" :style="cha"/>
+					</span>
+					<span v-else>
+						<input class="b" type="submit" value="提交" />
+					</span>
+					
+					<input class="b" type="reset" @click="formReset"/>
+					
+			</div>
+			
+			<script>
+				new Vue({
+					el:"#app",
+					data: {
+						user: "",
+						pwd: "",
+						cha:""
+					},
+					methods:{
+						change(){
+							this.cha="background-color:red";
+						},
+						change2(){
+							this.cha="background-color:grey"
+						},
+						formReset(){
+							this.user="";
+							this.pwd="";
+						}
+					}
+				})
+			</script>
+		</form>
+		
+<!-- 		<form method="post" action="http://localhost:8080/javaweb03_war_exploded/ServletDemo5" target="submitFrame">
+			<h3>post提交数据</h3>
+			姓名:<input type="text" placeholder="请输入姓名..." name="user" /><br />
+			密码:<input type="password" placeholder="请输入密码..." name="pwd" /><br />
+			<input type="submit" value="提交"/>
+		</form> -->
+		
+	</body>
+</html>
