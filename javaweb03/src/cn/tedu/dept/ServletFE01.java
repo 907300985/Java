@@ -18,10 +18,12 @@ import java.sql.PreparedStatement;
 public class ServletFE01 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
+        response.setContentType("text/html;charset=utf-8");
         String deptno = request.getParameter("deptno");
         String dname = request.getParameter("dname");
         String loc = request.getParameter("loc");
         System.out.println(deptno+"\n"+dname+"\n"+loc);
+        response.getWriter().write("提交成功,提交数据为:"+deptno+dname+loc);
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
