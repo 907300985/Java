@@ -2,7 +2,7 @@
   <div id="app">
 
     <img src="./assets/l.png" style="border-radius: 10px; ">
-    
+
     <Person></Person>
 
     <Student></Student>
