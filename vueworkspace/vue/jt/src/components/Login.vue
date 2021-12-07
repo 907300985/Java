@@ -74,7 +74,7 @@ export default {
         let token = result.data
         window.sessionStorage.setItem("token",token)
 
-        //用户登录成功之后,跳转到home页面
+        // 用户登录成功之后,跳转到home页面
         this.$router.push("/home")
       })
     }

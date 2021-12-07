@@ -30,7 +30,7 @@ import {
   Select,
   Option,
   Cascader,
-	Alert,
+  Alert,
   Tabs,
   TabPane,
   Steps,
@@ -78,7 +78,7 @@ Vue.use(CheckboxGroup)
 Vue.use(Checkbox)
 Vue.use(Upload)
 
-//将弹框组件挂载到Vue对象中 用户可以使用this关键字调用
+// 将弹框组件挂载到Vue对象中 用户可以使用this关键字调用
 Vue.prototype.$message = Message
-//通过MessageBox函数定义 消息提示框
+// 通过MessageBox函数定义 消息提示框
 Vue.prototype.$confirm = MessageBox.confirm
