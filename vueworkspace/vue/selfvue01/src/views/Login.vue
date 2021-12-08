@@ -55,28 +55,11 @@ export default {
     };
   },
   methods: {
-    //   submitLogin() {
-    //     const url = "http://localhost:8080/axios/updateUser";
-    //     const user = {
-    //       username: this.$data.LoginForm.username,
-    //       password: this.$data.LoginForm.password,
-    //     };
-    //     this.axios.post(url, user).then((promise) => {
-    //       console.log(promise.data);
-    //     });
-    //   },
-    // },
     submitLogin() {
-      let user = {
-        id: 100,
-        name: "张三",
-        age: 18,
-        sex: "女",
-      };
-      let url1 = "http://localhost:8080/axios/updateUser";
-      this.$axios.put(url1, { params: user }).then(function (promise) {
-        console.log(promise.data);
-      });
+      // this.$refs.loginFormRef.validate(async valid=>{
+      //   if(!valid) return
+      //   const {data: result} = aw
+      // });
     },
   },
 };
