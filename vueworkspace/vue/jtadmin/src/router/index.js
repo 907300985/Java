@@ -5,6 +5,9 @@ import ElementUI from "../components/ElementUI.vue";
 import Home from "../components/Home.vue";
 import Register from "../components/Register.vue";
 import User from "../components/user/user.vue";
+import Item from "../components/items/Item.vue";
+import ItemCat from "../components/items/ItemCat.vue";
+import addItem from "../components/items/addItem.vue";
 //使用路由机制
 Vue.use(VueRouter);
 const routes = [
@@ -18,7 +21,16 @@ const routes = [
   {
     path: "/home",
     component: Home,
-    children: [{ path: "/user", component: User }]
+    children: [
+      { path: "/user", component: User },
+      {
+        path: "/item",
+        component: Item,
+        children: []
+      },
+      { path: "/itemCat", component: ItemCat },
+      { path: "/item/addItem", component: addItem }
+    ]
   }
 ];
 

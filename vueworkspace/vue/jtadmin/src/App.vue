@@ -2,7 +2,7 @@
   <div id="app">
     <!-- <h3>我是默认访问的页面</h3> -->
     <!-- 添加路由占位符-->
-    <router-view v-transition></router-view>
+    <router-view></router-view>
   </div>
 </template>
 

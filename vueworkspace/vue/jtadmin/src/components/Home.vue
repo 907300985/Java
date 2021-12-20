@@ -4,8 +4,11 @@
     <!-- 定义头标签 -->
     <el-header>
       <div>
-        <img src="../assets/images/logo.png" />
-        <span>京淘电商后台管理系统</span>
+        <img
+          src="../assets/images/cat1.png"
+          style="width: 4%; margin-left:20px"
+        />
+        <span>果只电商后台管理系统</span>
       </div>
       <el-button type="info" @click="logout">退出</el-button>
     </el-header>
@@ -70,7 +73,7 @@
       <!-- 定义主页面结构-->
       <el-main>
         <!-- 定义路由展现页面-->
-        <router-view v-transition="true"></router-view>
+        <router-view></router-view>
       </el-main>
     </el-container>
   </el-container>
@@ -132,7 +135,7 @@ export default {
 <!-- 防止样式重叠 -->
 <style lang="less" scoped>
 .el-header {
-  background-color: #2b4b6b;
+  background-color: #869db4;
   display: flex; //灵活的盒子容器
   justify-content: space-between; //左右对齐
   align-items: center; //文本元素居中对齐
@@ -151,7 +154,7 @@ export default {
 }
 
 .el-aside {
-  background-color: #2c3e50;
+  background-color: #243649;
 
   .el-menu {
     border-right: none;
@@ -174,7 +177,7 @@ export default {
 //定义折叠项
 .leftCollapse {
   //设定背景色
-  background-color: #708090;
+  background-color: #a1b7f194;
   //定义字体大小
   font-size: 10px;
   //定义行高
