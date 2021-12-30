@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>The index Page</h2>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <button onclick="doBuy()" >购买</button>
+    <span id="result"></span>
+    <script>
+        function doBuy(){
+            let url = "http://localhost:9000/nacos/provider/echo/1";
+            axios.get(url).then(function(result){
+                let { data: res } = axios.get(url);
+                alert("结果是" + result.data);
+                console.log(result);
+            })
+        }
+    </script>
+</body>
+</html>
